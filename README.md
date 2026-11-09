@@ -1,21 +1,31 @@
 # ZW-CLI: Markdown to HTML Converter 🦀
 
-Alat CLI pantas yang dibina menggunakan **Rust** dan `pulldown-cmark` untuk menukar fail Markdown (.md) kepada dokumen HTML yang lengkap.
+A high-performance CLI tool built with **Rust** and `pulldown-cmark` designed to convert Markdown (`.md`) files into standalone, well-structured HTML documents.
 
-## 🚀 Ciri-Ciri
-- Kompilasi pantas dengan keselamatan memori Rust
-- Sokongan sintaks standard Markdown (jadual, kod, senarai, dll.)
-- Automasi build & deploy terus ke GitHub Pages melalui GitHub Actions
+## 🚀 Features
+- **Fast & Memory-Safe:** Leverages Rust's zero-cost abstractions and strict memory safety guarantees.
+- **Full Standard Markdown Support:** Handles tables, code syntax blocks, checklists, and strikethroughs seamlessly.
+- **Automated CI/CD:** Built-in GitHub Actions workflow to automatically build and deploy rendered documentation directly to GitHub Pages.
 
-## 📦 Pemasangan & Penggunaan Tempatan
+## 📦 Installation & Local Setup
 
+### Prerequisites
+Ensure you have the Rust toolchain installed on your machine. If not, install it via [rustup](https://rustup.rs/):
 ```bash
-# Klon repositori
+curl --proto '=https' --tlsv1.2 -sSf [https://sh.rustup.rs](https://sh.rustup.rs) | sh
+
+
+## Build and Run
 git clone [https://github.com/Wishprogram01/ZW-CLI.git](https://github.com/Wishprogram01/ZW-CLI.git)
 cd ZW-CLI
 
-# Bina versi release
+## Build the optimized release binary:
 cargo build --release
 
-# Jalankan CLI
-cargo run --release -- --input fail_anda.md --output hasil.html
+## Run directly via Cargo
+cargo run --release -- --input sample.md --output index.html
+
+## Or execute the compiled release binary directly
+./target/release/md2html --input sample.md --output index.html
+
+
