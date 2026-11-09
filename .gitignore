@@ -1,1 +1,7 @@
 /target
+**/*.rs.bk
+*.html
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
