@@ -16,7 +16,7 @@ curl --proto '=https' --tlsv1.2 -sSf [https://sh.rustup.rs](https://sh.rustup.rs
 
 
 ## Build and Run
-git clone [https://github.com/Wishprogram01/ZW-CLI.git](https://github.com/Wishprogram01/ZW-CLI.git)
+git clone https://github.com/Wishprogram01/ZW-CLI.git
 cd ZW-CLI
 
 ## Build the optimized release binary:
