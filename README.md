@@ -29,3 +29,5 @@ cargo run --release -- --input sample.md --output index.html
 ./target/release/md2html --input sample.md --output index.html
 
 
+enjoy :)
+
