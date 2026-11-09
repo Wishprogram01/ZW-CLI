@@ -27,7 +27,7 @@ jobs:
         run: cargo build --release
 
       - name: Generate Demo HTML from sample.md
-        run: ./target/release/md2html --input sample.md --output index.html
+        run: cargo run --release -- --input sample.md --output index.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
