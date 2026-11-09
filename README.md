@@ -6,6 +6,7 @@ A high-performance CLI tool built with **Rust** and `pulldown-cmark` designed to
 - **Fast & Memory-Safe:** Leverages Rust's zero-cost abstractions and strict memory safety guarantees.
 - **Full Standard Markdown Support:** Handles tables, code syntax blocks, checklists, and strikethroughs seamlessly.
 - **Automated CI/CD:** Built-in GitHub Actions workflow to automatically build and deploy rendered documentation directly to GitHub Pages.
+- **Examples ( demo ) :** https://wishprogram01.github.io/ZW-CLI/
 
 ## 📦 Installation & Local Setup
 
